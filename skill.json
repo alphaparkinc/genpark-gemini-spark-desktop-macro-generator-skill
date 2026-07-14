@@ -1,0 +1,24 @@
+{
+  "name": "genpark-gemini-spark-desktop-macro-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Desktop automation macro engine.",
+  "author": "genpark",
+  "category": "agentic",
+  "tags": [
+    "google",
+    "gemini",
+    "macro"
+  ],
+  "inputs": {
+    "user_instruction": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "macro_script": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
